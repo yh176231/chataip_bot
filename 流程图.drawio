@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T04:52:23.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.3" etag="h2_6vEBCpT1O90-aoQUF" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T04:56:47.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TnDvXf_THSp_F_8kuQvd" version="24.4.0" type="github">
   <diagram name="第 1 页" id="eURUD61KS9w-4v3VMjLg">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PMKbp80DMoy-457c8C5p-1" value="用户打开登录界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="81" y="20" width="143" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-2" value="用户输入用户名和密码" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="110" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-3" value="系统验证用户名和密码" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="205" width="208" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-4" value="根据用户信息决定跳转的界面" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="15.5" y="482" width="257" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-5" value="普通用户界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="15.5" y="808" width="111" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-6" value="管理员界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="181" y="808" width="95" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4965034965034965;exitY=1.0121212583599668;entryX=0.49714285714285716;entryY=0.012121258359966856;rounded=0;" edge="1" parent="1" source="PMKbp80DMoy-457c8C5p-1" target="PMKbp80DMoy-457c8C5p-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-8" value="" style="curved=0;startArrow=none;endArrow=block;exitX=0.4626460824990692;exitY=1.0242425167199336;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PMKbp80DMoy-457c8C5p-2" target="PMKbp80DMoy-457c8C5p-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-9" value="正确" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.0028845988787138;entryX=0.5019455252918288;entryY=-1.484318002188716e-8;rounded=0;" edge="1" parent="1" source="PMKbp80DMoy-457c8C5p-3" target="PMKbp80DMoy-457c8C5p-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-10" value="普通用户" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.012120969367749763;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMKbp80DMoy-457c8C5p-4" target="PMKbp80DMoy-457c8C5p-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-11" value="管理员" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.012120969367749763;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMKbp80DMoy-457c8C5p-4" target="PMKbp80DMoy-457c8C5p-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMKbp80DMoy-457c8C5p-12" value="错误" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PMKbp80DMoy-457c8C5p-3" target="PMKbp80DMoy-457c8C5p-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="309" />
+              <mxPoint x="340" y="120" />
+            </Array>
+            <mxPoint x="248" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
